@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ayushi.madeinindia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher1"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher1"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".HomeActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Services"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Filter"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".MainActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".User_Login"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Worker_Login"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Register_User"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Register_Worker"
+            android:theme="@style/AppTheme"/>
+        <activity android:name=".Worker_home_tabs"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+        <activity android:name=".Admin"/>
+        <activity android:name=".Admin_Home"/>
+
+
+        <fragment android:name=".User_Profile"
+            android:theme="@style/AppTheme"/>
+        <fragment android:name=".User_Wishlist"
+            android:theme="@style/AppTheme"/>
+        <fragment android:name=".ViewWorker"
+            android:theme="@style/AppTheme"/>
+        <fragment android:name=".ViewUser"
+            android:theme="@style/AppTheme"/>
+        <fragment android:name=".Worker_Account"/>
+        <fragment android:name=".Worker_Profile"/>
+
+
+    </application>
+
+</manifest>

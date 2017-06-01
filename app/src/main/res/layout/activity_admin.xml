@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayushi.madeinindia.Admin">
+
+    <EditText
+        android:id="@+id/admin_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/admin_pwd"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="15dp"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="monospace"
+        android:hint="ID"
+        android:selectAllOnFocus="false"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="?attr/colorControlNormal" />
+
+    <EditText
+        android:id="@+id/admin_pwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:focusable="false"
+        android:focusableInTouchMode="false"
+        android:fontFamily="monospace"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColorHighlight="@color/black"
+        android:textColorHint="?attr/colorControlNormal" />
+
+    <Button
+        android:id="@+id/admin_login"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin_pwd"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="57dp"
+        android:fontFamily="monospace"
+        android:text="Login"
+        android:textColor="#20B2AA"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="98dp"
+        android:fontFamily="monospace"
+        android:text="Admin Panel"
+        android:textColor="#20B2AA"
+        android:textSize="30sp" />
+
+</RelativeLayout>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "307130588047",
+    "firebase_url": "https://madeinindia-618da.firebaseio.com",
+    "project_id": "madeinindia-618da",
+    "storage_bucket": "madeinindia-618da.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307130588047:android:ee1602124481b60b",
+        "android_client_info": {
+          "package_name": "com.example.ayushi.madeinindia"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307130588047-ld2ndninj50u2s9mh0mpq1ns8vo49efs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ayushi.madeinindia",
+            "certificate_hash": "adf863318e3a9e73b3344bb03d683f51eb0d7c46"
+          }
+        },
+        {
+          "client_id": "307130588047-35qne00op6ruphe0a9htuut7k5u8e2dh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_O0nayCPQgOIVwx0HuHfi8vnqzL6ofkI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307130588047-35qne00op6ruphe0a9htuut7k5u8e2dh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

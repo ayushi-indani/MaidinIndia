@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ayushi.madeinindia.Services">
+    <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+        android:background="@drawable/b">
+    <ImageView
+        android:id="@+id/maid"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/maid1"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+    <ImageView
+        android:id="@+id/babysitter"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/babysitter"
+        android:layout_below="@+id/cook"
+        android:layout_alignRight="@id/babysitter"/>
+    <ImageView
+        android:id="@+id/cook"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cook"
+        android:layout_below="@+id/maid"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <ImageView
+        android:id="@+id/nurse"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/nurse"
+        android:layout_below="@+id/babysitter"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"/>
+    <ImageView
+        android:id="@+id/driver"
+        android:layout_width="160dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/driver"
+        android:layout_below="@+id/nurse"/>
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/cook"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/maid"
+            android:fontFamily="monospace"
+            android:text="Hire a housemaid to take care of all your daily household chores. She can take the responsibility of sweeping and moping house, dusting, washing clothes, cooking, child care and miscellaneous activities."
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/babysitter"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/maid"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/cook"
+            android:layout_toStartOf="@+id/cook"
+            android:fontFamily="monospace"
+            android:text="Hire a cook who can serve your family with the most delicious food and becoming the best kind of kitchen hands for your health. Find among numerous of them and give a new start to your health today."
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/nurse"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/cook"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toRightOf="@+id/babysitter"
+            android:fontFamily="monospace"
+            android:text="You don't only deserve to have a little time to yourself, but you also need it. Give your baby the best start. Find the best suited babysitter for your baby by your own."
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/driver"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/babysitter"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toLeftOf="@+id/nurse"
+            android:layout_toStartOf="@+id/nurse"
+            android:fontFamily="monospace"
+            android:text="Get the best direct patient care by the best suited nurses in your area. Find among millions of them and have a quick start to your medical requirements."
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nurse"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_toEndOf="@+id/driver"
+            android:layout_toRightOf="@+id/driver"
+            android:fontFamily="monospace"
+            android:text="Feel the pleasures of chauffeur driven car! Hire a driver for your vehicle. The driver will be experienced and committed to his job. Get on board! Experience the ride at back seat."
+            android:textColor="#ffffff"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

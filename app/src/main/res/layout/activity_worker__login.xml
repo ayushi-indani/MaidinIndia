@@ -1,0 +1,78 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alwaysDrawnWithCache="true"
+    android:animationCache="true"
+    android:background="@drawable/b"
+    tools:context="com.example.ayushi.madeinindia.Worker_Login">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/img"
+            android:id="@+id/imageView3" />
+
+        <EditText
+            android:id="@+id/idw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginTop="45dp"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="monospace"
+            android:hint="Enter Worker Id"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="?attr/colorControlNormal" />
+
+        <EditText
+            android:id="@+id/pwdw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/idw"
+            android:focusable="false"
+            android:focusableInTouchMode="false"
+            android:fontFamily="monospace"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:textColorHighlight="@color/black"
+            android:textColorHint="?attr/colorControlNormal" />
+
+        <Button
+            android:id="@+id/signinw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/pwdw"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp"
+            android:background="#ffffff"
+            android:fontFamily="monospace"
+            android:text="Sign In"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/registerw"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/signinw"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="145dp"
+            android:background="#ffffff"
+            android:fontFamily="monospace"
+            android:text="Not a member?  Register Now "
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+</ScrollView>

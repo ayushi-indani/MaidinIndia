@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_margin="10dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/na"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:padding="10dp"
+        android:text="Name"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#02C8A7"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/descTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/na"
+        android:lines="2"
+        android:padding="10dp"
+        android:text="Age:"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@color/common_google_signin_btn_text_light_focused" />
+
+
+    <TextView
+        android:id="@+id/mm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/ag"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/ag"
+        android:layout_marginTop="41dp"
+        android:layout_toStartOf="@+id/mo"
+        android:padding="10dp"
+        android:text="Mobile: "
+        android:textColor="@color/common_google_signin_btn_text_light_focused"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/ag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/descTxt"
+        android:layout_alignBottom="@+id/descTxt"
+        android:text="Age"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_toEndOf="@+id/descTxt" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/descTxt"
+        android:layout_alignBottom="@+id/descTxt"
+        android:layout_marginStart="28dp"
+        android:layout_toEndOf="@+id/descTxt"
+        android:text=" years"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/mo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/mm"
+        android:layout_alignBottom="@+id/mm"
+        android:text="Mobile"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/ag" />
+
+    <Button
+        android:id="@+id/wish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:text="Add to WishList"
+        android:layout_below="@+id/mo"
+        android:layout_marginTop="20dp"/>
+
+</RelativeLayout>
